@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc9a765-dc38-4688-bb15-70107b855e5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/investing_task/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/investing_task/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/investing_task/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/investing_task/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/investing_task/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="26" column="60" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="60" />
+            <state relative-caret-position="186">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding>
                 <element signature="e#638#675#0" expanded="true" />
               </folding>
@@ -37,10 +36,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/investing_task/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="843">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#243#400#0" />
               </folding>
             </state>
           </provider>
@@ -189,12 +189,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675517369704</updated>
-      <workItem from="1675517374891" duration="4042000" />
+      <workItem from="1675517374891" duration="4407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4042000" />
+    <option name="totallyTimeSpent" value="4407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -277,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/investing_task/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="60" />
+        <state relative-caret-position="186">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding>
             <element signature="e#638#675#0" expanded="true" />
           </folding>
@@ -287,10 +287,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/investing_task/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="843">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#243#400#0" />
           </folding>
         </state>
       </provider>
