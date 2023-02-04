@@ -16,6 +16,8 @@ Including another URLconf
 from django.urls import path, include
 from rest_framework import routers
 from . import views
+from django.contrib import admin
+
 
 router = routers.DefaultRouter()
 router.register(r'ad_units', views.AdUnitViewSet)
@@ -23,7 +25,8 @@ router.register(r'line_items', views.LineItemViewSet)
 router.register(r'creatives', views.CreativeViewSet)
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
     path('', include(router.urls)),
-    path('lineitems-by-targeting/', views.LineItemsByTargetingView.as_view(), name='lineitems-by-targeting'),
+    path('lineitems-by-targeting/', views.LineItemsByTargetingView, name='lineitems-by-targeting'),
 
 ]
