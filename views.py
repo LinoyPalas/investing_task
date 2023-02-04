@@ -17,3 +17,11 @@ class LineItemViewSet(viewsets.ModelViewSet):
 
     # set to the relevant serializer class
     serializer_class = LineItemSerializer
+
+
+class CreativeViewSet(viewsets.ModelViewSet):
+    # set to the relevant model instances
+    queryset = Creative.objects.all()
+
+    # set to the relevant serializer class
+    serializer_class = CreativeSerializer
