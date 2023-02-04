@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import AdUnit, LineItem, Creative
+from investing_task.models import AdUnit, LineItem, Creative
 
 
 class AdUnitSerializer(serializers.ModelSerializer):

@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from .models import AdUnit, LineItem, Creative
-from .serializers import AdUnitSerializer, LineItemSerializer, CreativeSerializer
+from investing_task.models import AdUnit, LineItem, Creative
+from investing_task.serializers import AdUnitSerializer, LineItemSerializer, CreativeSerializer
 
 
 class AdUnitViewSet(viewsets.ModelViewSet):
