@@ -25,7 +25,11 @@ class LineItem(models.Model):
     rpm = models.FloatField()
     start_time = models.DateTimeField()
     end_time = models.DateTimeField()
+
+    # Targeting that allows the advertiser to reach its intended audience or demographic
+    # (implemented using the various ad units)
     ad_unit = models.ForeignKey(AdUnit, on_delete=models.CASCADE)
+
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
