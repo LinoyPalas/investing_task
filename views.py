@@ -11,3 +11,9 @@ class AdUnitViewSet(viewsets.ModelViewSet):
     serializer_class = AdUnitSerializer
 
 
+class LineItemViewSet(viewsets.ModelViewSet):
+    # set to the relevant model instances
+    queryset = LineItem.objects.all()
+
+    # set to the relevant serializer class
+    serializer_class = LineItemSerializer
