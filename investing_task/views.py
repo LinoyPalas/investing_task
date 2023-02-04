@@ -18,6 +18,22 @@ class LineItemViewSet(viewsets.ModelViewSet):
     # set to the relevant serializer class
     serializer_class = LineItemSerializer
 
+
+class CreativeViewSet(viewsets.ModelViewSet):
+    # set to the relevant model instances
+    queryset = Creative.objects.all()
+
+    # set to the relevant serializer class
+    serializer_class = CreativeSerializer
+
+
+class LineItemsByTargetingView(viewsets.ModelViewSet):
+    # set to the relevant model instances
+    queryset = LineItem.objects.all()
+
+    # set to the relevant serializer class
+    serializer_class = LineItemSerializer
+
     def get_queryset(self):
         """allows filtering by the targeting parameters"""
 
@@ -33,11 +49,3 @@ class LineItemViewSet(viewsets.ModelViewSet):
                                         ad_unit__os__contains=os,
                                         ad_unit__browser__contains=browser)
         return queryset
-
-
-class CreativeViewSet(viewsets.ModelViewSet):
-    # set to the relevant model instances
-    queryset = Creative.objects.all()
-
-    # set to the relevant serializer class
-    serializer_class = CreativeSerializer

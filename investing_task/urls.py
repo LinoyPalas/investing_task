@@ -24,6 +24,6 @@ router.register(r'creatives', views.CreativeViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('lineitems-by-targeting/', LineItemsByTargetingView.as_view(), name='lineitems-by-targeting'),
+    path('lineitems-by-targeting/', views.LineItemsByTargetingView.as_view(), name='lineitems-by-targeting'),
 
 ]
